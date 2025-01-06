@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8" />
+    <title>Cinema Ticket Booking Portal</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+
+  <body id="top">
+    <!-- header 
+   ================================================== -->
+    <header>
+      <!-- row **removed** -->
+      <div class="top-bar">
+        <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+        <!-- <div class="logo">
+        <a href="index.html">SyDavies</a>
+      </div> -->
+
+        <nav id="main-nav-wrap">
+          <ul class="main-navigation">
+            <li class="current">
+              <a href="./index.html" title="">Home</a>
+            </li>
+            <li>
+              <a href="./index.html#about" title="">About</a>
+            </li>
+            <li>
+              <a href="./index.html#portfolio" title="">Portfolio</a>
+            </li>
+            <li>
+              <a href="./index.html#services" title="">Services</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#contact" title="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /top-bar -->
+
+      <!-- /row **removed** -->
+    </header>
+    <!-- /header -->
+
+    <!-- about section
+   ================================================== -->
+    <section id="project">
+      <div class="row section-intro">
+        <div class="edit">
+          <h1>
+            HindiFlix
+            <br />
+            Independent Cinema Booking Portal
+          </h1>
+
+          <div class="page-title__divider"></div>
+
+          <h2>Dynamic movie listings, schedules &amp; ticket reservations</h2>
+
+          <div class="project-info">
+            <h3>Brief</h3>
+            <p class="lead">
+              This platform was built for a small independent cinema
+              specialising in Bollywood movies. Through their dynamic booking
+              platform guest users choose from a range of 'currently screening'
+              movies, and are presented with appropriate dates and session times
+              for that selection. A booking confirmation is generated when the
+              user makes a selection & submits their personal information for
+              the reservation.
+            </p>
+            <p class="lead">
+              The platform was integrated with a MySQL database where a library
+              of movies, schedules and booking records could be safely stored.
+            </p>
+
+            <video class="" controls>
+              <source
+                type="video/mp4"
+                src="video/websiteMockup-HindiFlix.mp4"
+                alt="project demo - movie,
+              date and screening selction & ticket purchase"
+              />
+            </video>
+
+            <br />
+            <br />
+
+            <div class="flex">
+              <div>
+                <h3>Deliverables</h3>
+
+                <ul class="disc">
+                  <li>Relational Database System</li>
+                  <li>Secure back-end operations (CRUD)</li>
+                  <li>Interactive dynamic front-end lists via AJAX calls</li>
+                  <li>Session management</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Tools</h3>
+
+                <ul class="disc">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap</li>
+                  <li>AJAX</li>
+                  <li>PHP + SQL</li>
+                  <li>Apache Server</li>
+                </ul>
+              </div>
+              <!-- <div>
+                <ul class="project-links">
+                  <li><i class="fa fa-github"></i> git repo</li>
+                  <li><a href="#">project-link</a></li>
+                </ul>
+              </div> -->
+            </div>
+
+            <h3>Solution</h3>
+
+            <p class="lead">
+              A booking system was required that had a dynamic user interface
+              integrated with a physical database. A lightweight and reactive UI
+              was developed by utilising AJAX database requests in the
+              background and using the results to populate the DOM based upon
+              the user interaction / data request.
+            </p>
+
+            <h3>Skills</h3>
+
+            <p class="lead">
+              The dynamic functionality was built upon frequent client-database
+              interactions, a key factor to achieving this was through effective
+              management of the data-flow of the application. This ranged from:
+            </p>
+            <ul>
+              <li>standard database storage & SQL queries,</li>
+              <li>dynamic SQL queries,</li>
+              <li>
+                passing the data through JSON formatted asynchronous requests
+                (AJAX),
+              </li>
+              <li>
+                generating dynamic links/buttons (using html data-attributes)
+                from AJAX results,
+              </li>
+              <li>maintaining state using php session variables,</li>
+              <li>
+                procedural programming logic to create a new user db record
+                before allowing a booking record to be made,
+              </li>
+              <li>
+                assign multiple tickets to a single user/booking using 'for'
+                loops.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /process-->
+
+    <!-- contact
+   ================================================== -->
+    <section id="contact">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Contact</h5>
+          <h1>Got Ideas? Lets Jam.</h1>
+
+          <p class="lead">
+            Contact me today to discuss how I can help you achieve your goals
+            with innovative web solutions.
+          </p>
+        </div>
+      </div>
+      <!-- /section-intro -->
+
+      <div class="row contact-form">
+        <div class="col-twelve">
+          <!-- form -->
+          <form name="contactForm" id="contactForm" method="post" action="">
+            <fieldset>
+              <div class="form-field">
+                <input
+                  name="contactName"
+                  type="text"
+                  id="contactName"
+                  placeholder="Name"
+                  value=""
+                  minlength="2"
+                  required=""
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactEmail"
+                  type="email"
+                  id="contactEmail"
+                  placeholder="Email"
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactSubject"
+                  type="text"
+                  id="contactSubject"
+                  placeholder="Subject"
+                  value=""
+                />
+              </div>
+              <div class="form-field">
+                <textarea
+                  name="contactMessage"
+                  id="contactMessage"
+                  placeholder="message"
+                  rows="10"
+                  cols="50"
+                  required=""
+                ></textarea>
+              </div>
+              <div class="form-field">
+                <button class="submitform">Submit</button>
+                <div id="submit-loader">
+                  <div class="text-loader">Sending...</div>
+                  <div class="s-loader">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+          <!-- Form End -->
+
+          <!-- contact-warning -->
+          <div id="message-warning"></div>
+          <!-- contact-success -->
+          <div id="message-success">
+            <i class="fa fa-check"></i>Your message was sent, thank you!<br />
+          </div>
+        </div>
+        <!-- /col-twelve -->
+      </div>
+      <!-- /contact-form -->
+
+      <!-- <div class="row contact-info">
+        <div class="col-four tab-full">
+          <div class="icon">
+            <i class="icon-pin"></i>
+          </div>
+
+          <h5>Where to find me</h5>
+
+          <p>
+            1600 Amphitheatre Parkway<br />
+            Mountain View, CA<br />
+            94043 US
+          </p>
+        </div>
+
+        <div class="col-four tab-full collapse">
+          <div class="icon">
+            <i class="icon-mail"></i>
+          </div>
+
+          <h5>Email Me At</h5>
+
+          <p>
+            someone@kardswebsite.com<br />
+            info@kardswebsite.com
+          </p>
+        </div>
+
+        <div class="col-four tab-full">
+          <div class="icon">
+            <i class="icon-phone"></i>
+          </div>
+
+          <h5>Call Me At</h5>
+
+          <p>
+            Phone: (+63) 555 1212<br />
+            Mobile: (+63) 555 0100<br />
+            Fax: (+63) 555 0101
+          </p>
+        </div>
+      </div> -->
+      <!-- /contact-info -->
+    </section>
+    <!-- /contact -->
+
+    <!-- footer
+   ================================================== -->
+
+    <footer>
+      <div class="row">
+        <div class="col-six tab-full pull-right social">
+          <ul class="footer-social">
+            <li>
+              <a href="https://www.linkedin.com/in/sy5000/"
+                ><i class="fa fa-linkedin-square"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Sy5000"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://dribbble.com/SyDavies"
+                ><i class="fa fa-dribbble"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/sy_d/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-six tab-full">
+          <div class="copyright">
+            <span>© Copyright</span>
+          </div>
+        </div>
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"
+            ><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+      </div>
+      <!-- /row -->
+    </footer>
+
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

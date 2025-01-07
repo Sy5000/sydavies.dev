@@ -1369,7 +1369,7 @@ header .logo a {
  * header styles
  * --------------------------------------------------------------- 
  */
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   header .top-bar {
     left: 60px;
   }
@@ -1388,7 +1388,7 @@ header .logo a {
   header .top-bar {
     left: 25px;
   }
-}
+} */
 
 /** 
  * ===================================================================
@@ -1613,11 +1613,11 @@ header .logo a {
   height: 12rem;
   width: 12rem;
   border-radius: 50%;
-  margin: 0.9rem 5rem 0 0;
+  margin: 0.9rem 3rem 0 0;
   float: left;
 }
 .intro-info .lead {
-  text-align: center;
+  text-align: left;
   /* padding-left: 13rem; */
 }
 
@@ -1683,6 +1683,7 @@ header .logo a {
 }
 @media only screen and (max-width: 768px) {
   .intro-info img {
+    margin: 0 0 0 0;
     height: 7.8rem;
     width: 7.8rem;
   }
@@ -1707,7 +1708,7 @@ header .logo a {
 @media only screen and (max-width: 600px) {
   .intro-info {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .intro-info img {
     height: 6.6rem;

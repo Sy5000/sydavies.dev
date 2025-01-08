@@ -2468,7 +2468,7 @@ header .logo a {
   height: 6.6rem;
   line-height: 6.6rem;
   padding: 0 3rem;
-  margin-top: 4.8rem;
+  margin-top: 2rem;
   width: 100%;
   background: #ff0077;
   color: #ffffff;
@@ -2537,6 +2537,13 @@ header .logo a {
 }
 .contact-info h5 {
   color: #ff0077;
+}
+
+.h-captcha {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding-top: 2rem;
 }
 
 /**

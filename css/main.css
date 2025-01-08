@@ -2749,9 +2749,9 @@ footer .copyright span:last-child::after {
   text-align: left;
   max-width: 1200px;
 }
-#project .lead {
-  /* padding-bottom: 1rem; */
-}
+/* #project .lead {
+  padding-bottom: 1rem;
+ } */
 
 .project-info {
   margin-top: 8rem;

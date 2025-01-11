@@ -245,3 +245,17 @@
     }
   });
 })(jQuery);
+
+/*---------------------------------------------------- */
+/*	typed.js module
+------------------------------------------------------ */
+
+var typed = new Typed("#typed", {
+  stringsElement: "#typed-strings",
+  typeSpeed: 120,
+  // fadeOut: true,
+  smartBackspace: true,
+  backSpeed: 30,
+  loop: true,
+  loopCount: Infinity,
+});
